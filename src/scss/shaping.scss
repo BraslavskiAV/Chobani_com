@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 
-.container-shaping {
+.container{
     width: 1170px;
     margin: 0 auto;
 }
@@ -62,4 +62,31 @@
     text-decoration:none;
     border: 1px solid rgb(246, 242, 241);
     border-radius: 5px;
+}
+
+.newsroom-text{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.newsroom-text__title{
+    font-size: 1.6rem;
+    line-height: 1;
+    color: rgb(27, 58, 50);
+    font-family: Young serif;
+}
+.newsroom-text__subtitle{
+    font-size: 5rem;
+    line-height: 1;
+    color: rgb(27, 58, 50);
+    font-family: Young serif;
+}
+.card{
+width: 375px;
+    border-radius: 4px;
+    box-shadow: none;
+    overflow: hidden;
+}
+.card-picture{
+    width: 225px;
 }
