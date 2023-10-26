@@ -96,3 +96,16 @@
         width: 800px;
     }
 }
+@media (max-width: 810px){
+    .container-footer{
+        width: 370px;
+    }
+    .block-top{
+        width: 370px;
+        height: 170px;
+        flex-direction: column;
+    }
+    .block-bottom{
+        margin-top: 30px;
+    }
+}

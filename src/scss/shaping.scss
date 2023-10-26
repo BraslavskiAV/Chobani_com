@@ -92,3 +92,20 @@
         height: 35px;
     }
 }
+@media (max-width: 810px){
+    .shaping-grid {
+        width: 370px;
+        grid-template-columns:  360px;
+    }
+    .container-shaping{
+        width: 370px;
+    }
+    .shaping-name {
+        width: 370px;
+        font-size: 28px;
+        padding-top: 30px;
+    }
+    .background-shaping {
+        height: 1100px;
+    }
+}

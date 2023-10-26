@@ -81,7 +81,7 @@ body {
     line-height: 1;
     font-family: Young serif;
     position: absolute;
-    left: 0px;
+    left: 20px;
     bottom: 40px;
 }
 .carousel-caption{
@@ -89,7 +89,7 @@ body {
 }
 .carousel__title{
     position: absolute;
-    left: 0px;
+    left: 20px;
     bottom: 170px;
     font-family: Young serif;
 }
@@ -114,5 +114,19 @@ body {
     }
     .header-container {
         width: 800px;
+    }
+}
+@media (max-width: 810px){
+    .header-container {
+        width: 370px;
+    }
+    .carousel__title{
+        font-size: 16px;
+    }
+    .carousel__text{
+        font-size: 40px;
+    }
+    .carousel-caption{
+        width: 370px;
     }
 }

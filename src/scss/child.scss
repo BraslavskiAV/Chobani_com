@@ -44,3 +44,24 @@
         height: 500px;
     }
 }
+@media (max-width: 810px){
+    .main-child{
+        height: 450px;
+    }
+    .container-child{
+        width: 370px;
+        height: 200px;
+        padding: 0px 10px 0px 10px;
+    }
+    .chid-typography__title{
+        font-size: 32px;
+    }
+    .chid-typography__subtitle{
+        font-size: 12px;
+    }
+    .chid-typography__button{
+        width: 80px;
+        height: 30px;
+        font-size: 12px;
+    }
+}
