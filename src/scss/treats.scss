@@ -1,0 +1,125 @@
+.container-treats{
+    width: 1170px;
+    margin: 0 auto;
+}
+.naming-picture-img{
+    width: 460px;
+    height: 250px;
+}
+
+.block-naming{
+    display: flex;
+    justify-content: space-between;
+}
+.naming-typography{
+    width: 400px;
+    height: 250px;
+}
+.naming-typography__title{
+    font-family: Young serif;
+    color: #1B3A32;
+    font-size: 18px;
+}
+.naming-typography__text{
+    font-family: Young serif;
+    font-size: 62px;
+    font-weight: 400;
+    color: #1B3A32;
+}
+.block-news{
+    width: 1170px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+.news-item{
+    width: 280px;
+    height: 410px;
+    border-radius: 4px;
+}
+.news-item-picture-img{
+    width: 280px;
+    height: 340px;
+    border-radius: 4px 4px 0px 0px;
+}
+.news-item-typography{
+    width: 280px;
+    height: 70px;
+    background-color: rgb(22, 109, 183);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 0px 4px 4px;
+}
+.news-item-typography__title{
+    font-family: Young serif;
+    font-size: 24px;
+    color: white;
+}
+.news-item-typography__subtitle{
+    font-family: Young serif;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.news-item:hover{
+    transform: translateY(-20px);
+}
+.news-item-typography_orange{
+    background-color: #b45b39;
+}
+.news-item-typography_green{
+    background-color: #80bc00;
+}
+.news-item-typography_pice{
+    background-color: #c78241;
+}
+
+@media (max-width: 1200px){
+    .container-treats{
+        width: 800px;
+    }
+    .naming-picture-img{
+        width: 380px;
+        height: 180px;
+    }
+    .naming-typography{
+        width: 380px;
+        height: 200px;
+    }
+    .naming-typography__title{
+    font-size: 16px;
+    }
+    .naming-typography__text{
+    font-size: 52px;
+    line-height: 1;
+    }
+    .news-item_adaptive{
+        display: none;
+    }
+    .block-news{
+        width: 800px;
+        height: 350px;
+        justify-content: space-around;
+    }
+    .news-item{
+        width: 220px;
+        height: 310px;
+    }
+    .news-item-picture-img{
+    width: 220px;
+        height: 240px;
+    }
+    .news-item-typography{
+        width: 220px;
+        height: 50px;
+    }
+    .news-item-typography__title{
+        font-size: 16px;
+    }
+    .news-item-typography__subtitle{
+        font-size: 12px;
+        margin-top: 3px;
+    }
+}
